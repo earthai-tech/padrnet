@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-05-26T14:28:00Z",
+  "regions": [
+    "west_africa_niger_benue",
+    "east_africa_nile_headwaters",
+    "southern_africa_limpopo_zambezi"
+  ],
+  "scenarios": [
+    "S1_extreme_monsoon",
+    "S2_cyclone_flash",
+    "S3_seasonal_sequence"
+  ],
+  "hydrological_constants": {
+    "MANNING_N": 0.035,
+    "CELL_SIZE_m": 500.0,
+    "DT_s": 3600.0,
+    "FRICTION_CF": 0.05
+  },
+  "results": {
+    "west_africa_niger_benue": {
+      "S1_extreme_monsoon": {
+        "n_hours": 240,
+        "total_precip_mm": 174.8849303619475,
+        "peak_precip_mm_h": 12.843445898922033,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.8169014084506928,
+        "padrnet_0_CSI": 0.8169014084506928,
+        "padrnet_lambda_NSE": 0.6504314889432123,
+        "padrnet_lambda_dM": 1.926782244391247
+      },
+      "S2_cyclone_flash": {
+        "n_hours": 168,
+        "total_precip_mm": 161.3142676689291,
+        "peak_precip_mm_h": 5.051178898615954,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.8723404255318963,
+        "padrnet_0_CSI": 0.8723404255318963,
+        "padrnet_lambda_NSE": 0.4342213172908722,
+        "padrnet_lambda_dM": 5.797567052676427
+      },
+      "S3_seasonal_sequence": {
+        "n_hours": 4320,
+        "total_precip_mm": 2458.715206418051,
+        "peak_precip_mm_h": 15.369267206670902,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.9459459459459452,
+        "padrnet_0_CSI": 0.9450945094509443,
+        "padrnet_lambda_NSE": 0.7265109034832518,
+        "padrnet_lambda_dM": 5.041622613859269
+      }
+    },
+    "east_africa_nile_headwaters": {
+      "S1_extreme_monsoon": {
+        "n_hours": 240,
+        "total_precip_mm": 134.63980843361963,
+        "peak_precip_mm_h": 4.933461221163727,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.7631578947368322,
+        "padrnet_0_CSI": 0.7631578947368322,
+        "padrnet_lambda_NSE": 0.3671939535482369,
+        "padrnet_lambda_dM": 11.998616389592861
+      },
+      "S2_cyclone_flash": {
+        "n_hours": 168,
+        "total_precip_mm": 114.08616522931459,
+        "peak_precip_mm_h": 3.4622706996014108,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.8723404255318963,
+        "padrnet_0_CSI": 0.8723404255318963,
+        "padrnet_lambda_NSE": 0.2529743482628052,
+        "padrnet_lambda_dM": 10.772632480935714
+      },
+      "S3_seasonal_sequence": {
+        "n_hours": 4320,
+        "total_precip_mm": 1967.4378165255716,
+        "peak_precip_mm_h": 13.18706853625114,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.9363228699551562,
+        "padrnet_0_CSI": 0.9363228699551562,
+        "padrnet_lambda_NSE": 0.5053851556139419,
+        "padrnet_lambda_dM": 7.3488066580059845
+      }
+    },
+    "southern_africa_limpopo_zambezi": {
+      "S1_extreme_monsoon": {
+        "n_hours": 240,
+        "total_precip_mm": 67.88139598537242,
+        "peak_precip_mm_h": 6.100500153868558,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.6666666666666591,
+        "padrnet_0_CSI": 0.6666666666666591,
+        "padrnet_lambda_NSE": 0.32412832558015947,
+        "padrnet_lambda_dM": 8.631264803345623
+      },
+      "S2_cyclone_flash": {
+        "n_hours": 168,
+        "total_precip_mm": 55.8294663205779,
+        "peak_precip_mm_h": 3.082778428497613,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.9523809523809297,
+        "padrnet_0_CSI": 0.9523809523809297,
+        "padrnet_lambda_NSE": 0.17248566659868336,
+        "padrnet_lambda_dM": 19.2910149801081
+      },
+      "S3_seasonal_sequence": {
+        "n_hours": 4320,
+        "total_precip_mm": 1205.9311445893482,
+        "peak_precip_mm_h": 7.136030911309542,
+        "peak_depth_m": 0.1,
+        "padrnet_lambda_CSI": 0.935168738898756,
+        "padrnet_0_CSI": 0.935168738898756,
+        "padrnet_lambda_NSE": 0.7100405101350054,
+        "padrnet_lambda_dM": 3.451103601043083
+      }
+    }
+  }
+}

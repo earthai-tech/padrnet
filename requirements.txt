@@ -1,0 +1,27 @@
+# PADR-Net reproducibility archive — Python requirements
+# Tested with Python 3.9 – 3.11
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# For the full environment including optional geo dependencies:
+#   conda env create -f environment.yml
+
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Visualisation
+matplotlib>=3.7
+
+# Optional — required only for fig01 (region map)
+# The figure degrades gracefully to a schematic if geopandas is absent
+geopandas>=0.14
+
+# Optional — required only for scripts 01-03 (data acquisition)
+# Not needed to reproduce Tables 1-2 and Figures 4-12
+xarray>=2023.6
+netcdf4>=1.6
+openpyxl>=3.1      # read EM-DAT .xlsx

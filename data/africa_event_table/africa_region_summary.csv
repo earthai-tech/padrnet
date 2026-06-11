@@ -1,0 +1,4 @@
+region,n_events,year_min,year_max,n_extreme,n_moderate,n_test,total_deaths,total_affected,median_precip_mm,region_label
+east_africa_nile_headwaters,96,2001,2024,13,38,50,2041.0,15402813.0,100.27690505981445,East Africa: Nile headwaters / Sudan-Ethiopia corridor
+southern_africa_limpopo_zambezi,74,2002,2024,2,31,33,934.0,1654365.0,120.77646255493164,Southern Africa: Limpopo / Zambezi
+west_africa_niger_benue,73,2001,2024,10,28,33,3047.0,12389474.0,363.7134246826172,West Africa: Niger / Benue basin

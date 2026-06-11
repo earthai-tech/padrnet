@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-05-26T08:42:01Z",
+  "source_harmonised": "F:\\_DATA\\FloodData\\interim\\harmonized_flood_events.csv",
+  "africa_regions": [
+    "west_africa_niger_benue",
+    "east_africa_nile_headwaters",
+    "southern_africa_limpopo_zambezi"
+  ],
+  "total_africa_events": 243,
+  "year_range": [
+    2001,
+    2024
+  ],
+  "severity_quantiles": {
+    "q50": 1.8462823486328126,
+    "q90": 433.4698791259776
+  },
+  "split_counts": {
+    "train": 120,
+    "test": 116,
+    "val": 7
+  },
+  "severity_counts": {
+    "low": 121,
+    "moderate": 97,
+    "extreme": 25
+  },
+  "note": "Severity tier is a proxy for return period based on combined impact score (deaths + 0.001*affected + 0.01*precip_mm). extreme ~ >=100-yr class; moderate ~ 50-100 yr; low ~ <50 yr."
+}

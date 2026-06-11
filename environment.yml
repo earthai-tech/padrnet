@@ -1,0 +1,18 @@
+name: padrnet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.11
+  - scikit-learn>=1.3
+  - matplotlib>=3.7
+  - geopandas>=0.14
+  - xarray>=2023.6
+  - netcdf4>=1.6
+  - openpyxl>=3.1
+  - pip
+  - pip:
+      - --no-deps

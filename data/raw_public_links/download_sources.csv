@@ -1,0 +1,7 @@
+dataset_name,provider,url,doi,access_date,license,variable_used,preprocessing_script
+EM-DAT International Disaster Database,CRED / UCLouvain,https://www.emdat.be,10.5258/SOTON/WP00048,2026-05-11,Non-commercial research use,Flood event records (date; location; affected population; deaths),01_africa_data_audit.py
+Global Flood Database (GFD),Dartmouth Flood Observatory / Cloud to Street,https://global-flood-database.cloudtostreet.ai,10.1038/s41586-021-03695-w,2025-12-01,CC-BY 4.0,Satellite-derived flood extent polygons and inundation metadata,01_africa_data_audit.py
+ERA5 Reanalysis (hourly; 0.25-degree),Copernicus Climate Change Service / ECMWF,https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels,10.24381/cds.adbb2d47,2025-11-15,Copernicus licence,Total precipitation; 2-m temperature; soil moisture; runoff; evaporation; wind speed,03_build_era5_covariates.py
+SRTM 90 m Digital Elevation Model,NASA / USGS,https://earthexplorer.usgs.gov,10.5066/F7PR7TFT,2025-10-01,Public domain,Slope; TWI; drainage density; channel gradient,04_padrnet_training.py (H features)
+GPW v4 Population Count,NASA SEDAC,https://sedac.ciesin.columbia.edu/data/collection/gpw-v4,10.7927/H4JW8BX5,2025-10-01,CC-BY 4.0,Gridded population density for exposure computation,04_padrnet_training.py (E features)
+ESA WorldCover 10 m Land Use,ESA / Sinergise,https://worldcover2021.esa.int,10.5281/zenodo.7254221,2025-10-01,CC-BY 4.0,Built-up fraction; urban density,04_padrnet_training.py (E features)

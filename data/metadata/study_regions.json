@@ -1,0 +1,114 @@
+{
+  "west_africa_niger_benue": {
+    "label": "West Africa: Niger / Benue basin",
+    "bbox": [
+      15.0,
+      -12.0,
+      4.0,
+      15.0
+    ],
+    "mechanisms": [
+      "Sahel rainfall",
+      "urban flood exposure",
+      "data-sparse African validation"
+    ]
+  },
+  "southern_africa_limpopo_zambezi": {
+    "label": "Southern Africa: Limpopo / Zambezi",
+    "bbox": [
+      -8.0,
+      20.0,
+      -27.0,
+      37.0
+    ],
+    "mechanisms": [
+      "tropical cyclones",
+      "reservoir influence",
+      "drought-flood transitions"
+    ]
+  },
+  "east_africa_nile_headwaters": {
+    "label": "East Africa: Nile headwaters / Sudan-Ethiopia corridor",
+    "bbox": [
+      16.0,
+      28.0,
+      -4.0,
+      40.0
+    ],
+    "mechanisms": [
+      "seasonal rainfall",
+      "large-basin routing",
+      "high exposure"
+    ]
+  },
+  "ganges_brahmaputra_meghna": {
+    "label": "South Asia: Ganges-Brahmaputra-Meghna",
+    "bbox": [
+      32.0,
+      72.0,
+      20.0,
+      93.0
+    ],
+    "mechanisms": [
+      "monsoon floods",
+      "floodplain exposure",
+      "large transboundary basin"
+    ]
+  },
+  "indus": {
+    "label": "Pakistan / India: Indus basin",
+    "bbox": [
+      37.0,
+      66.0,
+      23.0,
+      82.0
+    ],
+    "mechanisms": [
+      "snowmelt",
+      "monsoon",
+      "recent catastrophic floods"
+    ]
+  },
+  "rhine_meuse": {
+    "label": "Europe: Rhine / Meuse",
+    "bbox": [
+      53.5,
+      2.0,
+      45.0,
+      12.0
+    ],
+    "mechanisms": [
+      "dense observations",
+      "2021 benchmark floods",
+      "temperate extremes"
+    ]
+  },
+  "mississippi_missouri_texas_gulf": {
+    "label": "North America: Mississippi/Missouri and Texas Gulf",
+    "bbox": [
+      49.5,
+      -106.0,
+      25.0,
+      -88.0
+    ],
+    "mechanisms": [
+      "strong gauge coverage",
+      "compound rainfall",
+      "urban/coastal interactions"
+    ]
+  },
+  "mekong": {
+    "label": "Southeast Asia: Mekong",
+    "bbox": [
+      34.0,
+      93.0,
+      8.0,
+      109.0
+    ],
+    "mechanisms": [
+      "monsoon",
+      "reservoir operations",
+      "floodplain agriculture"
+    ]
+  }
+}

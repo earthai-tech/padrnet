@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-05-26T14:19:43Z",
+  "mode": "real",
+  "n_events": 243,
+  "n_real": 0,
+  "n_synthetic": 243,
+  "n_failed_real": 243,
+  "features": [
+    "era5_precip_7d_mean",
+    "era5_precip_7d_max",
+    "era5_precip_7d_total",
+    "era5_precip_onset_hour",
+    "era5_precip_intensity",
+    "era5_t2m_mean_c",
+    "era5_wind_speed_mean",
+    "era5_runoff_total",
+    "era5_soil_moist_mean",
+    "era5_evap_total"
+  ],
+  "feature_groups": {
+    "precipitation": [
+      "era5_precip_7d_mean",
+      "era5_precip_7d_max",
+      "era5_precip_7d_total",
+      "era5_precip_onset_hour",
+      "era5_precip_intensity"
+    ],
+    "meteorological": [
+      "era5_t2m_mean_c",
+      "era5_wind_speed_mean"
+    ],
+    "hydrological": [
+      "era5_runoff_total",
+      "era5_soil_moist_mean",
+      "era5_evap_total"
+    ]
+  },
+  "feature_stats": {
+    "era5_precip_7d_mean": {
+      "mean": 1.189837162514187,
+      "std": 0.6170745830453215,
+      "min": 0.5380737059110332,
+      "max": 4.3296774968886345
+    },
+    "era5_precip_7d_max": {
+      "mean": 10.790338299388061,
+      "std": 5.8662360477432856,
+      "min": 3.8419572595768128,
+      "max": 51.66520895230279
+    },
+    "era5_precip_7d_total": {
+      "mean": 285.5609190034049,
+      "std": 148.09789993087716,
+      "min": 129.13768941864797,
+      "max": 1039.1225992532723
+    },
+    "era5_precip_onset_hour": {
+      "mean": 61.7037037037037,
+      "std": 36.370719007216906,
+      "min": 0.0,
+      "max": 157.0
+    },
+    "era5_precip_intensity": {
+      "mean": 4.968957028098982,
+      "std": 2.420360815978249,
+      "min": 2.243108278066349,
+      "max": 18.726597749275207
+    },
+    "era5_t2m_mean_c": {
+      "mean": 27.440679344514585,
+      "std": 3.6749620357137527,
+      "min": 14.685573375389076,
+      "max": 38.359212167596375
+    },
+    "era5_wind_speed_mean": {
+      "mean": 3.4160121004767525,
+      "std": 1.4387497545017085,
+      "min": 0.2726551478396484,
+      "max": 6.934573821924939
+    },
+    "era5_runoff_total": {
+      "mean": 0.7428649641745378,
+      "std": 0.4653638990919136,
+      "min": 0.25827537883729595,
+      "max": 3.1173677977598166
+    },
+    "era5_soil_moist_mean": {
+      "mean": 0.21543960737442192,
+      "std": 0.05758118928160569,
+      "min": 0.06110619125652382,
+      "max": 0.36054783914358257
+    },
+    "era5_evap_total": {
+      "mean": 1.046696619264297,
+      "std": 0.1833175925079299,
+      "min": 0.6750190536801569,
+      "max": 1.431826204044202
+    }
+  }
+}
