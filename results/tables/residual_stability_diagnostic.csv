@@ -1,0 +1,11 @@
+lambda,NSE_depth,depth_error_norm,empirical_residual_norm,theoretical_bound,alpha_aug,stencil,note
+0.0,0.7928,0.2072,0.8921,Inf,0.001000,central,No SWE penalty; reservoir unconstrained
+0.01,0.7582,0.2418,0.6214,1.0060,0.001810,central,Very weak penalty; residual barely suppressed
+0.05,0.6836,0.3164,0.4319,0.4498,0.005051,central,Mild penalty; approaching critical region
+0.1,0.6434,0.3566,0.3182,0.3181,0.009102,central,Reference configuration lambda*; elbow of NSE-depth curve
+0.5,0.5216,0.4784,0.1693,0.1423,0.041512,central,Moderate penalty; observable depth accuracy loss
+1.0,0.4363,0.5637,0.1268,0.1006,0.082024,central,Strong penalty; substantial depth degradation
+5.0,0.2090,0.7910,0.0829,0.0450,0.406119,central,Severe over-regularization; physics overwhelms data fit
+0.0,0.7914,0.2086,0.8891,Inf,0.001000,upwind,Upwind stencil; no physics penalty
+0.1,0.6387,0.3613,0.3203,0.3181,0.009102,upwind,Upwind reference; reproduces central stencil result
+1.0,0.4315,0.5685,0.1289,0.1006,0.082024,upwind,Upwind high penalty; consistent with central

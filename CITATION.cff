@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-7259-7254"
     affiliation: "EarthAI Tech"
     email: etanoyau@gmail.com
-version: "1.0.0-matg-resubmission"
+version: "1.1.0-matg-rebuild"
 date-released: "2026-06-11"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.20642121"
@@ -19,6 +19,10 @@ abstract: >
   for Shallow-Water Flood Modelling" submitted to Mathematical Geosciences.
   Contains all scripts, pre-computed results tables, and publication figures
   needed to reproduce Tables 1–2 and Figures 4–12 of the manuscript.
+  This release (v1.1.0-matg-rebuild) adds the partially-observed formulation
+  with explicit observation operators, source-term closure table,
+  residual-stability diagnostics, transfer-validation splits, baseline
+  comparisons, and stencil-sensitivity results.
 keywords:
   - flood prediction
   - physics-informed machine learning

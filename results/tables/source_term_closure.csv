@@ -1,0 +1,8 @@
+term,physical_meaning,synthetic_benchmark,african_archive,sensitivity_check
+P,Atmospheric precipitation input,Known generated forcing field (prescribed),ERA5 precipitation aggregated over event window and antecedent windows,Rainfall percentile transformation and perturbation
+I,Infiltration loss,Prescribed known value by construction,Bounded loss coefficient informed by soil type and land-cover class where available,Low / reference / high loss fractions
+D,Drainage or unresolved sink,Prescribed known value by construction,Lumped event-scale drainage loss where urban drainage or groundwater exchange is unresolved,Zero-loss / reference-loss / high-loss settings
+Q_lat,Lateral inflow or routed runoff contribution,Known routed value by construction,Routed runoff or river-state proxy when available; set to zero and flagged by missingness indicator otherwise,Included vs omitted lateral-flow proxy
+n,Manning roughness coefficient,Prescribed known spatially distributed value,Land-cover-based roughness lookup applied consistently across all folds,+/-20% roughness perturbation
+b,Bed elevation,Prescribed terrain grid (DEM),SRTM-derived terrain with vegetation-bias correction applied,Alternative DEM product (Copernicus) sensitivity
+h0,Wet-cell depth threshold,0.10 m (reference); 0.05 m and 0.20 m in sensitivity,0.10 m (reference); 0.05 m and 0.20 m in sensitivity,Three threshold levels tested

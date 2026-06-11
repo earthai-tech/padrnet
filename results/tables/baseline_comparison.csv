@@ -1,0 +1,15 @@
+model_id,model_class,description,feature_groups,lambda_phys,Spearman,PR_AUC,MAE,RMSE,NSE_depth,CSI,TSS,report_block,diagnostic_role
+M7,ESN_no_physics,Reservoir baseline lambda=0 (no SWE penalty),R+M+E+H,0.0,0.6710,0.7032,3.5692,3.9194,0.7928,0.0345,0.0345,reported,Isolates physics contribution when compared with M6
+M6,PADR-Net_reference,Full model lambda*=0.10 (SWE penalty active),R+M+E+H,0.1,0.6710,0.7032,3.5692,3.9194,0.6434,0.0345,0.0345,reported,Primary reported model; central empirical result
+stencil_central,PADR-Net_stencil_central,Full model central finite-difference residual,R+M+E+H,0.1,0.6710,0.7032,3.5692,3.9194,0.6434,0.0345,0.0345,reported,Reference stencil configuration
+stencil_upwind,PADR-Net_stencil_upwind,Full model upwind finite-difference residual,R+M+E+H,0.1,0.6710,0.7032,3.5717,3.9226,0.6387,0.0345,0.0345,reported,Alternative stencil; confirms numerical robustness
+M0,ESN_rainfall_only,Rainfall-only reservoir,R,0.1,0.1942,0.4033,3.8907,4.3034,0.3805,0.0000,0.0000,reported,Lower bound of feature-group ablation
+M1,ESN_R+M,Rainfall plus memory,R+M,0.1,0.6141,0.6202,3.7487,4.1165,0.3805,0.0000,0.0000,reported,Quantifies memory contribution
+M2,ESN_R+E,Rainfall plus exposure,R+E,0.1,0.3311,0.4461,3.8159,4.2183,0.3805,0.0000,0.0000,reported,Quantifies exposure contribution
+M3,ESN_R+H,Rainfall plus hydrodynamic,R+H,0.1,0.0774,0.3906,3.9089,4.3371,0.6434,0.0000,0.0000,reported,Quantifies hydrodynamic signal without memory
+M4,ESN_R+M+E,Memory plus exposure without hydrodynamic,R+M+E,0.1,0.6985,0.6753,3.6415,3.9936,0.3805,0.0345,0.0345,reported,Quantifies hydrodynamic increment over M4
+M5,ESN_R+M+H,Memory plus hydrodynamic without exposure,R+M+H,0.1,0.5856,0.6380,3.7014,4.0660,0.6434,0.0000,0.0000,reported,Quantifies exposure increment over M5
+M8,ESN_high_physics,Full model lambda=1.0 (over-regularized),R+M+E+H,1.0,0.6710,0.7032,3.5692,3.9194,0.4363,0.0345,0.0345,reported,Upper end of lambda sweep; shows depth degradation at high penalty
+elastic_net,Elastic-net_regression,Penalized linear model on same feature vector,R+M+E+H,NA,NA,NA,NA,NA,NA,NA,NA,conceptual,Standard regularized regression; no physics structure
+random_forest,Random_forest_GBT,Tree ensemble on same feature vector,R+M+E+H,NA,NA,NA,NA,NA,NA,NA,NA,conceptual,Non-parametric ensemble; requires no stationarity assumption
+LSTM_GRU,LSTM_GRU_recurrent,Trained-backpropagation recurrent network,R+M+E+H,NA,NA,NA,NA,NA,NA,NA,NA,conceptual,Conflates architecture and physics penalty; M7 vs M6 provides clean isolation

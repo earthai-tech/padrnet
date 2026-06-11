@@ -4,6 +4,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20642121.svg)](https://doi.org/10.5281/zenodo.20642121)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-blue)](https://base-attentive.readthedocs.io/en/latest/padrnet.html)
+[![Version](https://img.shields.io/badge/version-v1.1.0--matg--rebuild-green.svg)](https://github.com/earthai-tech/padrnet/releases/tag/v1.1.0-matg-rebuild)
 
 **Physics-Informed Reservoir Learning for Shallow-Water Flood Modelling**
 
@@ -132,7 +133,7 @@ padrnet/
 │   ├── metadata/               # training snapshot, extraction reports
 │   └── raw_public_links/       # download_sources.csv, ERA5_DOWNLOAD.md
 ├── results/
-│   ├── tables/                 # ablation, nested, lambda, transfer, bootstrap
+│   ├── tables/                 # ablation, nested, lambda, transfer, bootstrap, source_term_closure, validation_splits, baseline_comparison, residual_stability_diagnostic, stencil_sensitivity
 │   └── figures/                # all 14 publication figures (PNG)
 ├── environment.yml
 ├── requirements.txt

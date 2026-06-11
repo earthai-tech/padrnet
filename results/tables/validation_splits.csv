@@ -1,0 +1,13 @@
+protocol,held_out,n_train,n_test,spearman,PR_AUC,MAE,RMSE,NSE_depth,purpose
+chronological_split,2020-2024 test period,127,116,0.671,0.703,3.569,3.919,0.643,Temporal extrapolation to unseen events
+LORO_WAF,west_africa_niger_benue,87,73,0.604,0.834,1.716,2.301,0.658,Spatial transfer to unseen hydrological regime
+LORO_EAF,east_africa_nile_headwaters,81,96,0.565,0.818,2.072,2.876,0.688,Spatial transfer to Nile headwaters corridor
+LORO_SAF,southern_africa_limpopo_zambezi,86,74,0.421,0.522,1.387,2.042,0.478,Spatial transfer to Limpopo-Zambezi domain
+LOYO_2020,year_2020,211,32,0.587,0.758,3.183,3.481,0.653,Annual robustness held-out year
+LOYO_2021,year_2021,228,15,0.696,0.596,3.481,3.750,0.445,Annual robustness held-out year
+LOYO_2022,year_2022,218,25,0.685,0.694,3.342,3.811,0.744,Annual robustness held-out year
+LOYO_2023,year_2023,222,21,0.679,0.620,3.789,4.146,0.826,Annual robustness held-out year
+LOYO_2024,year_2024,220,23,0.520,0.523,4.052,4.342,0.433,Annual robustness held-out year
+synthetic_S1,extreme_monsoon,S2+S3,S1,0.831,0.876,1.243,1.842,0.841,Process-regime transfer
+synthetic_S2,cyclone_flash,S1+S3,S2,0.794,0.843,1.521,2.103,0.779,Process-regime transfer
+synthetic_S3,seasonal_memory,S1+S2,S3,0.812,0.861,1.382,1.974,0.812,Process-regime transfer

@@ -1,0 +1,11 @@
+lambda,stencil,Spearman,PR_AUC,MAE,RMSE,NSE_depth,CSI,TSS,alpha_aug,residual_norm,note
+0.0,central,0.6710,0.7032,3.5692,3.9194,0.7928,0.0345,0.0345,0.001000,0.8921,No physics penalty (central)
+0.1,central,0.6710,0.7032,3.5692,3.9194,0.6434,0.0345,0.0345,0.009102,0.3182,Reference configuration (central)
+0.5,central,0.6710,0.7032,3.5692,3.9194,0.5216,0.0345,0.0345,0.041512,0.1693,Moderate penalty (central)
+1.0,central,0.6710,0.7032,3.5692,3.9194,0.4363,0.0345,0.0345,0.082024,0.1268,High penalty (central)
+5.0,central,0.6710,0.7032,3.5692,3.9194,0.2090,0.0345,0.0345,0.406119,0.0829,Severe penalty (central)
+0.0,upwind,0.6710,0.7032,3.5717,3.9226,0.7914,0.0345,0.0345,0.001000,0.8891,No physics penalty (upwind)
+0.1,upwind,0.6710,0.7032,3.5717,3.9226,0.6387,0.0345,0.0345,0.009102,0.3203,Reference configuration (upwind)
+0.5,upwind,0.6710,0.7032,3.5717,3.9226,0.5181,0.0345,0.0345,0.041512,0.1712,Moderate penalty (upwind)
+1.0,upwind,0.6710,0.7032,3.5717,3.9226,0.4315,0.0345,0.0345,0.082024,0.1289,High penalty (upwind)
+5.0,upwind,0.6710,0.7032,3.5717,3.9226,0.2074,0.0345,0.0345,0.406119,0.0843,Severe penalty (upwind)
