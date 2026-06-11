@@ -5,7 +5,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20642121.svg)](https://doi.org/10.5281/zenodo.20642121)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-blue)](https://base-attentive.readthedocs.io/en/latest/padrnet.html)
 
-**Physics-Aware Deep Reservoir Network for African Flood Impact Prediction**
+**Physics-Informed Reservoir Learning for Shallow-Water Flood Modelling**
 
 PADR-Net combines an Echo State Network (ESN) reservoir with a
 shallow-water-equation (SWE) physics penalty to jointly predict flood
@@ -14,8 +14,8 @@ separates physics-constrained depth reconstruction from severity ranking,
 proving that the physics weight λ can be tuned independently of severity
 performance (Proposition 1).
 
-> Kouadio, K. L. (2026). A Physics-Informed Deep Learning Framework for
-> African Flood Impact Prediction. *Mathematical Geosciences* (submitted).
+> Kouadio, K. L. (2026). Physics-Informed Reservoir Learning for
+> Shallow-Water Flood Modelling. *Mathematical Geosciences* (submitted).
 > DOI: [10.5281/zenodo.20642121](https://doi.org/10.5281/zenodo.20642121)
 
 ---
@@ -191,8 +191,8 @@ for attention-based and hybrid time-series models.
 ```bibtex
 @software{Kouadio2026padrnet_code,
   author    = {Kouadio, Kouao Laurent},
-  title     = {PADR-Net: Physics-Aware Deep Reservoir Network
-               for African Flood Impact Prediction},
+  title     = {PADR-Net: Physics-Informed Reservoir Learning
+               for Shallow-Water Flood Modelling},
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20642121},
@@ -201,8 +201,8 @@ for attention-based and hybrid time-series models.
 
 @article{Kouadio2026padrnet_paper,
   author  = {Kouadio, Kouao Laurent},
-  title   = {A Physics-Informed Deep Learning Framework for
-             African Flood Impact Prediction},
+  title   = {Physics-Informed Reservoir Learning for
+             Shallow-Water Flood Modelling},
   journal = {Mathematical Geosciences},
   year    = {2026},
   note    = {Submitted}

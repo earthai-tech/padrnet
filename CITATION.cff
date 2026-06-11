@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this archive, please cite the associated paper."
 type: software
-title: "PADR-Net: Physics-Informed Deep Reservoir Network for African Flood Impact Prediction"
+title: "PADR-Net: Physics-Informed Reservoir Learning for Shallow-Water Flood Modelling"
 authors:
   - family-names: Kouadio
     given-names: Kouao Laurent
@@ -15,8 +15,8 @@ doi: "10.5281/zenodo.20642121"
 repository-code: "https://github.com/earthai-tech/padrnet"
 url: "https://base-attentive.readthedocs.io/en/latest/padrnet.html"
 abstract: >
-  Reproducibility archive for the paper "A Physics-Informed Deep Learning Framework
-  for African Flood Impact Prediction" submitted to Mathematical Geosciences.
+  Reproducibility archive for the paper "Physics-Informed Reservoir Learning
+  for Shallow-Water Flood Modelling" submitted to Mathematical Geosciences.
   Contains all scripts, pre-computed results tables, and publication figures
   needed to reproduce Tables 1–2 and Figures 4–12 of the manuscript.
 keywords:
@@ -32,7 +32,7 @@ preferred-citation:
     - family-names: Kouadio
       given-names: Kouao Laurent
       orcid: "https://orcid.org/0000-0001-7259-7254"
-  title: "A Physics-Informed Deep Learning Framework for African Flood Impact Prediction"
+  title: "Physics-Informed Reservoir Learning for Shallow-Water Flood Modelling"
   journal: "Mathematical Geosciences"
   year: 2026
   notes: "Submitted"
