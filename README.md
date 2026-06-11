@@ -2,7 +2,7 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20642121.svg)](https://doi.org/10.5281/zenodo.20642121)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-blue)](https://base-attentive.readthedocs.io/en/latest/padrnet.html)
 
 **Physics-Aware Deep Reservoir Network for African Flood Impact Prediction**
@@ -16,7 +16,7 @@ performance (Proposition 1).
 
 > Kouadio, K. L. (2026). A Physics-Informed Deep Learning Framework for
 > African Flood Impact Prediction. *Mathematical Geosciences* (submitted).
-> DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+> DOI: [10.5281/zenodo.20642121](https://doi.org/10.5281/zenodo.20642121)
 
 ---
 
@@ -195,7 +195,7 @@ for attention-based and hybrid time-series models.
                for African Flood Impact Prediction},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
+  doi       = {10.5281/zenodo.20642121},
   url       = {https://github.com/earthai-tech/padrnet}
 }
 

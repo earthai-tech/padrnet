@@ -11,6 +11,7 @@ authors:
 version: "1.0.0-matg-resubmission"
 date-released: "2026-06-11"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.20642121"
 repository-code: "https://github.com/earthai-tech/padrnet"
 url: "https://base-attentive.readthedocs.io/en/latest/padrnet.html"
 abstract: >
