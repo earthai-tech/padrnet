@@ -213,5 +213,5 @@ for attention-based and hybrid time-series models.
 
 ## Contact
 
-Kouao Laurent Kouadio — [etanoyau@gmail.com](mailto:etanoyau@gmail.com)  
-EarthAI Tech — [earthai-tech.github.io](https://github.com/earthai-tech)
+Kouao Laurent Kouadio — [lkouadio.com](https://lkouadio.com/) — [etanoyau@gmail.com](mailto:etanoyau@gmail.com)  
+EarthAI Tech — [github.com/earthai-tech](https://github.com/earthai-tech)
