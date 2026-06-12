@@ -1,0 +1,7 @@
+scenario_id,label,NSE_depth,CSI,delta_mass_pct
+S0_baseline,"Baseline ($c_f$=0.05, $\alpha_p$=1.0)",0.9248,0.76,0.2292
+S1_low_infilt,Low infiltration ($\alpha_p \times 0.5$),-8.2157,0.7979,22.9578
+S2_high_infilt,High infiltration ($\alpha_p \times 1.5$),0.5207,0.2917,22.7366
+S3_low_fric,Low friction ($c_f \times 0.8$),0.8708,0.625,6.6431
+S4_high_fric,High friction ($c_f \times 1.2$),0.8841,0.7742,5.2094
+S5_lateral,"Lateral inflow ($Q_\mathrm{lat}=0.10\,\bar{P}$)",-10.9787,0.0,93.0258

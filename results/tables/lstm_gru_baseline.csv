@@ -1,0 +1,4 @@
+model,hidden_dim,readout,NSE_depth,Spearman,PR_AUC,MAE,delta_mass_pct
+RAND-LSTM,200,Ridge,0.9469,0.4263,0.6167,0.3154,0.0182
+RAND-GRU,200,Ridge,0.9331,0.5289,0.8362,0.2858,0.7102
+PADR-Net (ESN),200,Ridge,0.9248,0.4871,0.7362,0.3004,0.5533

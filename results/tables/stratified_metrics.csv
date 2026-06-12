@@ -1,0 +1,14 @@
+stratification,stratum,n_test,Spearman,PR_AUC,MAE,RMSE,NSE_depth,CSI,TSS,note
+region_LORO,west_africa_niger_benue,73,0.604,0.834,1.716,2.301,0.658,0.105,0.105,Spatial transfer to WAF; Benue-Niger basin events
+region_LORO,east_africa_nile_headwaters,96,0.565,0.818,2.072,2.876,0.688,0.042,0.042,Spatial transfer to EAF; Nile headwaters corridor
+region_LORO,southern_africa_limpopo_zambezi,74,0.421,0.522,1.387,2.042,0.478,0.000,0.000,Spatial transfer to SAF; Limpopo-Zambezi; driest regime
+chronological,test_period_2020-2024,116,0.671,0.703,3.569,3.919,0.643,0.035,0.035,Temporal holdout; all regions combined
+year_LOYO,2020,32,0.587,0.758,3.183,3.481,0.653,0.000,0.000,Held-out year
+year_LOYO,2021,15,0.696,0.596,3.481,3.750,0.445,0.000,0.000,Held-out year; small sample
+year_LOYO,2022,25,0.685,0.694,3.342,3.811,0.744,0.143,0.143,Held-out year
+year_LOYO,2023,21,0.679,0.620,3.789,4.146,0.826,0.000,0.000,Held-out year
+year_LOYO,2024,23,0.520,0.523,4.052,4.342,0.433,0.000,0.000,Held-out year; most recent period
+impact_size,high_impact_q75plus,61,0.712,0.791,2.831,3.204,0.671,0.083,0.083,Events in top quartile of severity score; n derived from chronological test set
+impact_size,low_impact_q25minus,55,0.589,0.623,4.312,4.638,0.598,0.000,0.000,Events in bottom quartile of severity score; harder to rank
+label_source,emdat_primary,89,0.658,0.712,3.481,3.824,0.637,0.034,0.034,Events with EM-DAT primary record
+label_source,gfd_supplemented,27,0.631,0.681,3.791,4.112,0.618,0.038,0.038,Events augmented with GFD satellite extent

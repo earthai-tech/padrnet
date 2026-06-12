@@ -10,12 +10,16 @@ Usage
 
 Scripts
 -------
+  00 -- Generate synthetic event table (offline / reproducibility mode)
   01 -- Africa data audit
   02 -- Build Africa event table
   03 -- Build ERA5 covariates
   04 -- PADR-Net training + evaluation
   05 -- Flood scenario generation
   06 -- Publication figures
+  07 -- Source-closure sensitivity analysis (Reviewer 3)
+  08 -- LSTM / GRU random-weight baseline (Reviewer 3)
+  09 -- Reliability / calibration curve (Reviewer 3)
 """
 
 from __future__ import annotations
@@ -29,12 +33,16 @@ from pathlib import Path
 SCRIPTS_DIR = Path(__file__).resolve().parent
 
 PIPELINE = [
+    ("00", "00_generate_synthetic_events.py"),
     ("01", "01_africa_data_audit.py"),
     ("02", "02_build_africa_event_table.py"),
     ("03", "03_build_era5_covariates.py"),
     ("04", "04_padrnet_training.py"),
     ("05", "05_make_flood_scenarios.py"),
     ("06", "06_make_figures.py"),
+    ("07", "07_source_closure_sensitivity.py"),
+    ("08", "08_lstm_gru_baseline.py"),
+    ("09", "09_reliability_curve.py"),
 ]
 
 

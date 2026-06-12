@@ -1,0 +1,18 @@
+parameter,value,units,description
+N_res,200,neurons,ESN reservoir size
+spectral_radius,0.90,dimensionless,Reservoir weight matrix spectral radius; ensures echo-state property rho < 1
+leaking_rate,0.25,dimensionless,Leaky-integration rate alpha in state update
+ts_length,168,hours,Event time-series length (7-day window centred on flood peak)
+delta_t,1.0,hours,Temporal discretisation step for SWE residual derivative
+friction_cf,0.05,per_hour,Linearised SWE friction coefficient c_f (default; terrain-adjusted via H features)
+p_scale,1e-3,dimensionless,Precipitation-to-depth scaling factor (mm/h to dimensionless depth)
+spatial_representation,lumped_event_scale,NA,Model operates on event-scale aggregates; no explicit 2D spatial grid
+n_collocation_per_event,168,timesteps,All time steps in window are used as physics-residual collocation points
+n_collocation_total_train,21336,timesteps,127 training events x 168 timesteps per event (chronological split)
+h0_central,0.10,metres,Wet-cell depth threshold for extent observation operator (reference)
+h0_low,0.05,metres,Low threshold sensitivity experiment
+h0_high,0.20,metres,High threshold sensitivity experiment
+s_h,0.05,metres,Logistic scale for smooth wet/dry indicator
+sparsity,0.12,dimensionless,Reservoir connection sparsity (12% of W_res entries non-zero)
+ridge_alpha_0,1e-3,dimensionless,Base ridge regularisation alpha_0 (lambda_phys=0 baseline)
+lambda_opt,0.10,dimensionless,Optimal physics weight lambda* selected by validation NSE_depth

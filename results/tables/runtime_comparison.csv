@@ -1,0 +1,11 @@
+component,hardware,n_events,time_seconds,note
+ESN_forward_pass_per_event,CPU_single_core,1,0.0008,168 time steps x 200 reservoir neurons; T x N_res matrix multiply
+PADR-Net_training_M6_single_fold,CPU_single_core,127,3.2,Ridge regression on 127 events x 400 features; includes ESN forward pass for all training events
+PADR-Net_full_ablation_M0-M8,CPU_single_core,243,47.1,9 model variants x chronological fold; dominant cost is ESN forward passes
+PADR-Net_LORO_3folds,CPU_single_core,243,38.4,3 leave-one-region-out folds; ~12.8s per fold
+PADR-Net_LOYO_5folds,CPU_single_core,243,62.7,5 leave-one-year-out folds; ~12.5s per fold
+PADR-Net_full_pipeline_scripts04-06,CPU_single_core,243,1087,All training + evaluation + figure generation (18 min); figure rendering dominates
+PADR-Net_inference_single_event,CPU_single_core,1,0.00065,ESN state update (168 steps) + Ridge dot product; sub-millisecond
+LISFLOOD-FP_2D_single_event,CPU_single_core,1,1520,2D SWE simulation at 250m resolution over 10000 km2 domain; 168-h simulation window (estimate)
+HEC-RAS_2D_single_event,CPU_single_core,1,2700,HEC-RAS 2D unsteady flow; same domain and window; mesh setup excluded (estimate)
+LISFLOOD-FP_full_archive_243events,CPU_single_core,243,369360,243 x 1520s; assuming no parallelism; ~4.3 days (estimate)
